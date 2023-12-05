@@ -1,0 +1,28 @@
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+
+.buttons{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(86, 103, 109); 
+    background-color: cadetblue;
+    border: none;
+    outline: none;
+    color:white;
+    font-size:20px;
+}
+
+.buttons:hover{
+    background: #858383;
+}
+.buttons:active{
+    background-color: rgb(194, 187, 178);
+    color: black;
+}
